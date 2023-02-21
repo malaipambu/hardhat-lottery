@@ -19,13 +19,13 @@ To get started with this project, follow these steps:
 ##### Usage
 To compile the contracts, run npx hardhat compile. To run the tests, run npx hardhat test. To deploy the contracts to a local network, run npx hardhat node to start a local network and then run npx hardhat run --network localhost scripts/deploy.js.
 
-#####Features
+##### Features
 - Purchase lottery tickets
 - Draw a winner
 - Distribute the prize
 - Contributing
 - If you are interested in contributing to this project, feel free to submit a pull request.
 
-#####Contributing
+##### Contributing
 If you are interested in contributing to this project, feel free to submit a pull request.
 
