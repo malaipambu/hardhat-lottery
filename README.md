@@ -1,80 +1,31 @@
-# hardhat-lottery
-Smart contract for Decentralised lottery where the winner is picked from a Oracle (ChainLink)  
-Hardhat Lottery
-License
+# Hardhat Lottery
 
-A decentralized lottery game built using Hardhat and Solidity.
+This repository contains the code for a simple lottery smart contract built using Hardhat. The lottery is a basic raffle that accepts lottery ticket purchases in exchange for an equal chance to win the lottery prize. This project can be used as a starting point for more complex lotteries or other smart contract-based raffles.
 
-Table of Contents
-About the Project
-Built With
-Getting Started
-Prerequisites
-Installation
-Usage
-License
-Contact
-About the Project
-This project implements a decentralized lottery game using Hardhat and Solidity. Players can buy tickets for the lottery and at the end of the lottery period, a winner is randomly selected. The project uses Chainlink's VRF to ensure that the winner is selected fairly and at random.
+### Getting Started
+##### Prerequisites
+To use this project, you will need to have the following software installed on your computer:
 
-Built With
-Hardhat
-Solidity
-Chainlink VRF
-OpenZeppelin Contracts
-Getting Started
-To get a local copy up and running, follow these simple steps.
+1. Node.js
+2. Hardhat
 
-Prerequisites
-Node.js
-Hardhat (npm install --save-dev hardhat)
-Hardhat Network (npm install --save-dev @nomiclabs/hardhat-network)
-Hardhat Ethers (npm install --save-dev @nomiclabs/hardhat-ethers)
-Metamask or another Ethereum wallet
-Installation
-Clone the repo
+##### Installation
+To get started with this project, follow these steps:
 
-sh
-Copy code
-git clone https://github.com/malaipambu/hardhat-lottery.git
-Install NPM packages
+1. Clone the repository to your local machine
+2. Navigate to the project directory in your terminal
+3. Install the project dependencies by running npm install
 
-sh
-Copy code
-npm install
-Create a .env file in the root directory and set the following environment variables:
+##### Usage
+To compile the contracts, run npx hardhat compile. To run the tests, run npx hardhat test. To deploy the contracts to a local network, run npx hardhat node to start a local network and then run npx hardhat run --network localhost scripts/deploy.js.
 
-sh
-Copy code
-INFURA_PROJECT_ID=<your Infura project ID>
-PRIVATE_KEY=<your private key>
-Usage
-Deploying the smart contract
-To deploy the smart contract, run the following command:
+#####Features
+- Purchase lottery tickets
+- Draw a winner
+- Distribute the prize
+- Contributing
+- If you are interested in contributing to this project, feel free to submit a pull request.
 
-sh
-Copy code
-npx hardhat run --network <network-name> scripts/deploy.js
-Replace <network-name> with the name of the network you want to deploy to (e.g. rinkeby, mainnet, etc.).
+#####Contributing
+If you are interested in contributing to this project, feel free to submit a pull request.
 
-Running the tests
-To run the tests, run the following command:
-
-sh
-Copy code
-npx hardhat test
-Starting the frontend
-To start the frontend, run the following command:
-
-sh
-Copy code
-npm run start
-This will start the frontend on http://localhost:3000.
-
-License
-Distributed under the MIT License. See LICENSE for more information.
-
-Contact
-Malaipambu - malaipambu@example.com
-
-Project Link: https://github.com/malaipambu/hardhat-lottery
