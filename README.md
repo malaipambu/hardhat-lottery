@@ -28,7 +28,6 @@ yarn install
 
 ##### Usage
 
-```
 1. Run a hardhat node
 ```
 yarn hardhat
